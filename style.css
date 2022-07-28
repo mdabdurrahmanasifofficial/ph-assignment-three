@@ -1,0 +1,33 @@
+.margin50{
+    margin-top: 50px;
+}
+ul .social-i{
+    list-style-type: none;
+    margin: 0px 10px;
+    display: inline;
+}
+ul .social-i a{
+    padding: 10px 14px;
+    border-radius: 50px;
+    background-color: #e6d9d9;
+    text-decoration: none;
+}
+                            /*-- header style --*/
+.slider-height{
+    max-height: 500px;
+}
+  
+                            /*-- students feedback  --*/
+.previous-btn{
+    justify-content: start !important;
+}
+.next-btn{
+    justify-content: end !important;
+}
+  
+                            /*-- footer -- */
+.social-width{
+    width: 183px !important;
+}
+
+

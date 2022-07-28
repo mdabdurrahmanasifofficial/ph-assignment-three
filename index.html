@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Education Service</title>
+<!-- css link -->
+    <link rel="stylesheet" href="style.css">
+<!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+<!-- header start -->
+    <header>
+<!-- navbar start -->
+      <nav class="navbar navbar-expand-lg bg-light p-4">
+            <div class="container">
+                <div>
+                  <a class="navbar-brand fw-bold fs-4" href="#">Pro Education</a>
+                </div>
+              <div>
+                <button class="btn btn-outline-primary d-none d-md-inline-block d-lg-none fw-bold" type="submit">Register</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active fs-6 mx-2" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-6 mx-2" href="#">Deals</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-6 mx-2" href="#">Success</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fs-6 mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Courses
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Design</a></li>
+                        <li><a class="dropdown-item" href="#">Development</a></li>
+                        <li><a class="dropdown-item" href="#">Marketing</a></li>
+                        <li><a class="dropdown-item" href="#">Photography</a></li>
+                        <li><a class="dropdown-item" href="#">Video Editing</a></li>
+                        <li><a class="dropdown-item" href="#">IT and Software</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">More</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-6 mx-2" href="#">About</a>
+                  </li>
+                </ul>
+                <div>
+                  <button class="btn btn-outline-primary d-sm-block d-md-none d-lg-block fw-bold" type="submit">Register</button>
+                </div>
+              </div>
+            </div>
+      </nav>
+<!-- navbar end -->
+
+<!-- carousel start -->
+      <section class="mt-4">
+        <div class="container">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded">
+              <div class="carousel-item active slider-height">
+                <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5 class="fs-1 fw-bold">Get Started With Digital Learning</h5>
+                  <p>The world's No. 1 & most popular online learning platform</p>
+                  <button class="btn btn-primary fw-semibold">Get Started</button>
+                </div>
+              </div>
+              <div class="carousel-item slider-height">
+                <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5 class="fs-1 fw-bold">A broad selection of courses</h5>
+                  <p>Choose from 185,000 online video courses with new additions published every month</p>
+                  <button class="btn btn-primary fw-semibold">Get Started</button>
+                </div>
+              </div>
+              <div class="carousel-item slider-height">
+                <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5 class="fs-1 fw-bold">Learn without limits</h5>
+                  <p>Professional Certificates, and degrees from world-class universities and companies.</p>
+                  <button class="btn btn-primary fw-semibold">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+<!-- carousel end -->
+    </header>
+<!-- header end -->
+
+<!-- main start -->
+    <main>
+<!-- course start -->
+      <section class="margin50">
+        <div class="container">
+          <div class="w-75 mx-auto text-center mb-5">
+            <h1 class="fw-bold">Discover Our Popular Courses</h1>
+            <p>Choose from 185,000 online video courses with new additions published every month</p>
+          </div>
+<!-- card start -->
+          <div class="row g-3">
+<!-- card one -->
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                  <div class="col col-md-4 col-lg-5">
+                    <img src="images/course/course-1.png" class="img-fluid rounded-start w-100 h-100" alt="...">
+                  </div>
+                  <div class="col col-md-8 col-lg-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                      <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-text fw-bold text-primary fs-5">Price : 50$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!-- card two -->
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                  <div class="col col-md-4 col-lg-5">
+                    <img src="images/course/course-2.png" class="img-fluid rounded-start w-100 h-100" alt="...">
+                  </div>
+                  <div class="col col-md-8 col-lg-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Javascript Basic to advanced</h5>
+                      <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-text fw-bold text-primary fs-5">Price : 49$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!-- card three -->
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                  <div class="col col-md-4 col-lg-5">
+                    <img src="images/course/course-3.png" class="img-fluid rounded-start w-100 h-100" alt="...">
+                  </div>
+                  <div class="col col-md-8 col-lg-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Fullstack Web Development</h5>
+                      <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-text fw-bold text-primary fs-5">Price : 69$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!-- card four -->
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                  <div class="col col-md-4 col-lg-5">
+                    <img src="images/course/course-4.png" class="img-fluid rounded-start w-100 h-100" alt="...">
+                  </div>
+                  <div class="col col-md-8 col-lg-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Digital Marketing</h5>
+                      <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-text fw-bold text-primary fs-5">Price : 45$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!-- card five -->
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                  <div class="col col-md-4 col-lg-5">
+                    <img src="images/course/course-5.png" class="img-fluid rounded-start w-100 h-100" alt="...">
+                  </div>
+                  <div class="col col-md-8 col-lg-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Photography Basic Rules</h5>
+                      <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-text fw-bold text-primary fs-5">Price : 53$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!-- card six -->
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                  <div class="col col-md-4 col-lg-5">
+                    <img src="images/course/course-6.png" class="img-fluid rounded-start w-100 h-100" alt="...">
+                  </div>
+                  <div class="col col-md-8 col-lg-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Motion Graphics</h5>
+                      <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-text fw-bold text-primary fs-5">Price : 66$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- card end -->
+          <div class="w-100 mx-auto text-center mt-3">
+            <button class="btn btn-primary fw-semibold rounded-1">See All Courses</button>
+          </div>
+        </div>
+      </section>
+<!-- course end -->
+
+<!-- explore the elearning institute start -->
+      <section class="margin50">
+        <div class="container">
+          <div class="card mb-3 w-100 mx-auto">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/working.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8 px-3 pt-3">
+                <div class="card-body d-flex flex-column">
+                  <h2 class="card-title fw-bold fs-1">Explore The elearning Institute</h2>
+                  <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
+                  <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                  <div class="d-flex justify-content-between flex-wrap flex-xl-nowrap">
+                    <div>
+                      <h1 class="fw-bold">3.2K+</h1>
+                      <p>Online Courses</p>
+                    </div>
+                    <div>
+                      <h1 class="fw-bold">600+</h1>
+                      <p>Expert Members</p>
+                    </div>
+                    <div>
+                      <h1 class="fw-bold">100K+</h1>
+                      <p>RAting & Review</p>
+                    </div>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary fw-semibold">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- explore the elearning institute end -->
+
+<!-- ready to join start -->
+      <section class="margin50">
+        <div class="container">
+          <div class="row row-md-2 bg-primary rounded text-light text-center text-lg-start align-items-center p-5">
+            <div class="col-12 col-lg-6">
+              <h3 class="fw-bold fs-2">Ready to Join?</h3>
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+              <button class="btn btn-light text-primary ms-auto d-lg-block fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Register Now</button>
+            </div>
+          </div>
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Enter Your Email & Password</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  <button class="btn btn-primary" type="submit">Register</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- ready to join end -->
+      
+<!-- meet our successfull students start -->
+      <section class="margin50">
+        <div class="container">
+          <div class="w-75 mx-auto text-center mb-5">
+            <h1 class="fw-bold">Meet Our Successfull Students</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+          <div class="row">
+<!-- card one -->
+            <div class="col-12 col-md-6 col-lg-3 mt-4">
+              <div class="card">
+                <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Imran Ali</h5>
+                  <p class="card-text">UI/UX Designer</p>
+                </div>
+              </div>
+            </div>
+<!-- card two -->
+            <div class="col-12 col-md-6 col-lg-3 mt-4">
+              <div class="card">
+                <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Israt Jahan</h5>
+                  <p class="card-text">Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+<!-- card three -->
+            <div class="col-12 col-md-6 col-lg-3 mt-4">
+              <div class="card">
+                <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sakib Hossain</h5>
+                  <p class="card-text">Web Developer</p>
+                </div>
+              </div>
+            </div>
+<!-- card four -->
+            <div class="col-12 col-md-6 col-lg-3 mt-4">
+              <div class="card">
+                <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Amreen Akter</h5>
+                  <p class="card-text">Video Editor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- meet our successfull students end -->
+
+<!-- some students feedback start -->
+      <section class="margin50">
+        <div class="container">
+          <div class="w-75 mx-auto text-center mb-5">
+            <h1 class="fw-bold">Some Students Feedback</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+
+<!-- review carousel start -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+<!-- card one -->
+                  <div class="col-12 col-lg-6 mt-4">
+                    <div class="card p-2">
+                      <div class="card-header bg-white border-0 d-flex justify-content-between align-items-center">
+                        <div>
+                          <img src="images/comma.png" alt="">
+                        </div>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                      </div>
+                      <div class="card-footer border-0 d-flex bg-white">
+                        <div>
+                          <img src="images/student/student-5.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                          <h6 class="m-0">Ferdous Orko</h6>
+                          <p class="m-0"><small>UI/UX Designer</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card two -->
+                  <div class="col-12 col-lg-6 mt-4 d-none d-lg-block">
+                    <div class="card p-2">
+                      <div class="card-header bg-white border-0 d-flex justify-content-between align-items-center">
+                        <div>
+                          <img src="images/comma.png" alt="">
+                        </div>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                      </div>
+                      <div class="card-footer border-0 d-flex bg-white">
+                        <div>
+                          <img src="images/student/student-6.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                          <h6 class="m-0">Erin Akter</h6>
+                          <p class="m-0"><small>Graphic Designer</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+<!-- card three -->
+                  <div class="col-12 col-lg-6 mt-4">
+                    <div class="card p-2">
+                      <div class="card-header bg-white border-0 d-flex justify-content-between align-items-center">
+                        <div>
+                          <img src="images/comma.png" alt="">
+                        </div>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                      </div>
+                      <div class="card-footer border-0 d-flex bg-white">
+                        <div>
+                          <img src="images/student/student-5.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                          <h6 class="m-0">Sahadat Hossain</h6>
+                          <p class="m-0"><small>UI/UX Designer</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<!-- card four -->
+                  <div class="col-12 col-lg-6 mt-4 d-none d-lg-block">
+                    <div class="card p-2">
+                      <div class="card-header bg-white border-0 d-flex justify-content-between align-items-center">
+                        <div>
+                          <img src="images/comma.png" alt="">
+                        </div>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                      </div>
+                      <div class="card-footer border-0 d-flex bg-white">
+                        <div>
+                          <img src="images/student/student-6.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                          <h6 class="m-0">Tanjina Akter</h6>
+                          <p class="m-0"><small>Graphic Designer</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev previous-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-primary rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-primary rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+<!-- review carousel end -->
+<!-- some students feedback end -->
+
+<!-- FAQ(Frequently Asked Questions) start -->
+      <section class="margin50">
+        <div class="container">
+          <div class="w-75 mx-auto text-center mb-5">
+            <h1 class="fw-bold">Frequently Asked Questions</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+<!-- start -->
+          <div class="accordion w-75 mx-auto" id="accordionPanelsStayOpenExample">
+<!-- first faq -->
+            <div class="accordion-item rounded-1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button collapsed rounded-1" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  What are the differences between Flexbox and Grid?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>Grid and flexbox.</strong> The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                </div>
+              </div>
+            </div>
+<!-- second faq -->
+            <div class="accordion-item mt-3 rounded-1 border-top">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed rounded-1" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  What are the differences between Bootstrap and Tailwind?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Tailwind CSS is a utility-based framework based on CSS.</strong> It provides a catalog of CSS classes that makes the process of styling more convenient. Tailwind is not a UI Kit like Bootstrap, Foundation, or Bulma. It does not provide ready-made design blocks.
+                </div>
+              </div>
+            </div>
+<!-- third faq -->
+            <div class="accordion-item mt-3 rounded-1 border-top">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed rounded-1" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  What is CSS box odel?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>In CSS, the term "box model" is used when talking about design and layout.</strong> The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                </div>
+              </div>
+            </div>
+<!-- forth faq -->
+            <div class="accordion-item mt-3 rounded-1 border-top">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed rounded-1" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  What is a semantic tag?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  Semantic HTML or semantic markup is <strong>HTML that introduces meaning to the web page rather than just presentation.</strong> For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- end -->
+        </div>
+      </section>
+<!-- FAQ(Frequently Asked Questions) end -->
+
+<!-- trusted companies start -->
+      <section class="margin50 d-none d-xl-block">
+        <div class="container">
+          <div class="w-75 mx-auto text-center mb-5">
+            <h1 class="fw-bold">Trusted by over 800+ companies</h1>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div><img src="images/company/company-1.png" alt="" class="w-75"></div>
+            <div><img src="images/company/company-2.png" alt="" class="w-75"></div>
+            <div><img src="images/company/company-3.png" alt="" class="w-75"></div>
+            <div><img src="images/company/company-4.png" alt="" class="w-75"></div>
+            <div><img src="images/company/company-5.png" alt="" class="w-75"></div>
+            <div><img src="images/company/company-6.png" alt="" class="w-75"></div>
+          </div>
+        </div>
+      </section>
+<!-- trusted companies end -->
+    </main>
+<!-- main end -->
+
+<!-- footer start -->
+    <footer class="bg-dark text-light text-center p-5 margin50">
+      <div class="container">
+        <div class="w-75 mx-auto">
+          <h1 class="fw-bold">Pro Education</h1>
+          <p class="fs-6">Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
+          <div class="d-flex justify-content-center">
+            <p>Privacy Ploicy</p>
+            <p class="mx-4">|</p>
+            <p>Terms of use</p></div>
+          <div class="social-width mx-auto">
+            <ul class="w-100 mx-auto mt-3 p-0 d-flex justify-content-between">
+              <li class="social-i">
+                <a class="text-light" href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="social-i">
+                <a class="text-light" href="https://www.facebook.com/" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="social-i">
+                <a class="text-light" href="https://github.com" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- footer end -->
+
+<!-- font awesome -->
+    <script src="https://kit.fontawesome.com/800e7af9df.js" crossorigin="anonymous"></script>
+<!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
